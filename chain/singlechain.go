@@ -1,4 +1,4 @@
-package singleChain
+package chain
 
 import "fmt"
 
