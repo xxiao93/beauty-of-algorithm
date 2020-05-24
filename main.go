@@ -5,4 +5,5 @@ import "beauty-of-algorithm/chain"
 func main() {
 	chain.ReverseStart()
 	chain.StartCheckHasCycle()
+	chain.StartMergeTowChain()
 }

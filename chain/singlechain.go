@@ -3,10 +3,6 @@ package chain
 import "fmt"
 
 //Single chain table inversion
-type Node struct {
-	Data  int
-	Next  *Node
-}
 
 func ReverseChain(head *Node) *Node{
 	var pre *Node
