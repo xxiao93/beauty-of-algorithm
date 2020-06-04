@@ -1,6 +1,7 @@
 package main
 
 import "beauty-of-algorithm/chain"
+import "beauty-of-algorithm/sort"
 
 func main() {
 	chain.ReverseStart()
@@ -8,4 +9,7 @@ func main() {
 	chain.StartMergeTowChain()
 	chain.StartRemoveNode()
 	chain.StartGetMidNode()
+
+	sort.StartBubbleSort()
+	sort.StartInsertSort()
 }
