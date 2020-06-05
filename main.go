@@ -1,7 +1,9 @@
 package main
 
-import "beauty-of-algorithm/chain"
-import "beauty-of-algorithm/sort"
+import (
+	"beauty-of-algorithm/chain"
+	"beauty-of-algorithm/sort"
+)
 
 func main() {
 	chain.ReverseStart()
@@ -12,4 +14,5 @@ func main() {
 
 	sort.StartBubbleSort()
 	sort.StartInsertSort()
+	sort.StartSelectSort()
 }
