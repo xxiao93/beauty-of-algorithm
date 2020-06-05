@@ -15,4 +15,5 @@ func main() {
 	sort.StartBubbleSort()
 	sort.StartInsertSort()
 	sort.StartSelectSort()
+	sort.StartQuickSort()
 }
