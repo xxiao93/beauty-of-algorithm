@@ -8,7 +8,7 @@ package lru
  lrucache.put(3, 3) 
  lrucache.get(2) => return -1
 
-get put 时间复杂度为O(n)
+get put 时间复杂度为O(1)
 */
 
 import "fmt"
