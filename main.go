@@ -2,8 +2,9 @@ package main
 
 import (
 	// "beauty-of-algorithm/chain"
-	"beauty-of-algorithm/sort"
+	// "beauty-of-algorithm/sort"
 	// "beauty-of-algorithm/lru"
+	"beauty-of-algorithm/tree"
 )
 
 func main() {
@@ -17,7 +18,9 @@ func main() {
 	// sort.StartInsertSort()
 	// sort.StartSelectSort()
 	// sort.StartQuickSort()
-	sort.StartBinarySearchForCircularArray()
+	// sort.StartBinarySearchForCircularArray()
 
 	// lru.StartTest()
+
+	tree.StartInorderTraversal()
 }
