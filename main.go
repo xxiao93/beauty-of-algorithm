@@ -4,7 +4,8 @@ import (
 	// "beauty-of-algorithm/chain"
 	// "beauty-of-algorithm/sort"
 	// "beauty-of-algorithm/lru"
-	"beauty-of-algorithm/tree"
+	// "beauty-of-algorithm/tree"
+	"beauty-of-algorithm/leetcode"
 )
 
 func main() {
@@ -22,5 +23,9 @@ func main() {
 
 	// lru.StartTest()
 
-	tree.StartInorderTraversal()
+	//tree.StartInorderTraversal()
+
+	// Leetcode
+	leetcode.Test_1()
+	leetcode.Test_2()
 }
